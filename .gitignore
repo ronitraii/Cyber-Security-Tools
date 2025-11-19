@@ -1,0 +1,67 @@
+# Ransomware Simulation Tool - Git Ignore File
+# DO NOT commit sensitive or generated files
+
+# Sensitive Files - Encryption Keys & Reports
+Week 11/encryption_key_*.key
+Week 11/attack_report_*.json
+Week 11/analysis_report_*.txt
+Week 11/Logs/
+Week 11/TestFiles/
+*.encrypted
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.backup
+
+# Temporary files
+*.tmp
+temp/
